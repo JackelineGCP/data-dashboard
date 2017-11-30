@@ -40,7 +40,7 @@ font-size: 40px;
 
 .firstSection {
   display: inline-block;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 0px 0px;
   width: 89.6%;
   padding: 0 70px;
   font-size: 25px;
@@ -259,6 +259,15 @@ i.icon2 {
   border-radius: 5px;
   width: 300px;
   height: 250px;
+  /* background-color: white; */
+  margin: 150px;
+  padding: 50px 70px;
+}
+
+.model3 {
+  border-radius: 5px;
+  width: 300px;
+  height: 250px;
   background-color: white;
   margin: 150px;
   padding: 50px 70px;
@@ -409,6 +418,18 @@ video::-webkit-media-controls {
 }
 
 .styleBox2 select{
+  display: inline-block;
+  border: none;
+  background-color: #FFC107;
+  border-radius: 5px;
+  width: 280px;
+  height: 40px;
+  padding: 5px;
+  font-size: 20px;
+  margin:  20px 0 30px 120px;
+}
+
+.styleBox3 select{
   border: none;
   background-color: #FFC107;
   border-radius: 5px;
@@ -419,3 +440,11 @@ video::-webkit-media-controls {
   margin:  20px 0 30px 50px;
 }
 
+.backgroundC {
+  width: 100%;
+  height: 100px;
+  background-color: skyblue;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 15px 0;
+}
