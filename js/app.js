@@ -21,4 +21,8 @@ window.addEventListener('load', function() {
     var total = document.getElementById('totalStudents');
     total.textContent = students.length;
   }
+  
+
+
+
 });
