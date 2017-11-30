@@ -6,7 +6,8 @@
 window.addEventListener("load", function(){
 
 /*--Pregunta1: El total de estudiantes presentes por sede y generación. */
-
+var aqr = document.getElementsByClassName('styleBox');
+aqr.addEventListener('click', totalStudentActive) 
 function totalStudentActive (sede, generation){
 var arrayStudents = data[sede][generation]['students'];
 var countActive = 0;  
@@ -45,7 +46,6 @@ function studentsExceedGoal (){
   var arrayStudents = data[sede][generation]['students'];
   for(i = 0; arrayStudents.length; i++){
     if(arrayStudents[i]['sprints'] == )
-
     }
 }
 
@@ -77,6 +77,4 @@ function averageJediMasters (sede,generation){
   return ScoreJedi;
 }
 averageJediMasters('AQP','2016-2')
-
-
 })

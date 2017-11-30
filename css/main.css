@@ -202,11 +202,6 @@ i.icon2 {
   margin: 0px 50px;
 }
 
-.style {
-  border: red;
-  background-color: white;
-}
-
 .text3 {
   display: inline-block;
   box-sizing: border-box;
@@ -302,7 +297,7 @@ i.icon2 {
 }
 
 .content {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   color: #b9b9b9;
   display: block;
   background: #f7f7f7;
