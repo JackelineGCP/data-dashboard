@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url(../assets/images/sky.jpg);
+  background-image: url(../assets/videos/buble.mp4);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -416,6 +416,6 @@ video::-webkit-media-controls {
   height: 40px;
   padding: 5px;
   font-size: 20px;
-  margin:  20px 0 30px 50px;
+  margin:  20px 0 20px 50px;
 }
 
