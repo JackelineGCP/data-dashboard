@@ -26,17 +26,16 @@
         <h1 class="inline"> Elige una Sede </h1>
       </div>
       <div class="styleBox">
-        <select name="sede">
-          <option value="Arequipa">Arequipa</option>
-          <option value="lima">Lima</option>
-          <option value="Santiago">Santiago</option>
-          <option value="Ciudad">Ciudad de México</option>
+        <select name="sede" id="sede">
+          <option value="AQP">Arequipa</option>
+          <option value="CDMX">Ciudad de México</option>
+          <option value="LIM">Lima</option>
+          <option value="SCL">Santiago</option>
         </select>
-        <select name="promocion">
-          <option value="20172">2017 - II</option>
-          <option value="20171">2017 - I</option>
-          <option value="20162">2016 - II</option>
-          <option value="20161">2016 - I</option>
+        <select name="promocion" id="generacion">
+          <option value="2016-2">2016 - II</option>
+          <option value="2017-1">2017 - I</option>
+          <option value="2017-2">2017 - II</option>
         </select>
       </div>
     </div>
@@ -52,7 +51,7 @@
         <div class="firstTitles">
           <h3>ENROLLMENT</h3>
           <div class="text">
-            <h4>120</h4>
+              <p id="totalStudents"></p>
             <h6 class="sizeLetter">#STUDENTS CURRENTLY
               <br>ENROLLED</h6>
           </div>
